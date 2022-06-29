@@ -1,0 +1,122 @@
+    /*=====boostrap 3 media queries======*/
+
+
+/*large devices (desktop & laptops)*/
+
+@media (min-width: 1200px) {
+    /* okay */
+}
+
+/*medium devices (landscaop tablets & medium desktops)*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar {
+        background: rgba(0, 0, 0, .6);
+        padding: 0;
+    }
+    /*
+    .navbar-nav {
+        float: left;
+    }
+    .vesco-nav-wrapper {
+        padding: 0;
+    }
+*/
+}
+
+/*small devices (potrait tablets & small desktops)*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar {
+        background: rgba(0, 0, 0, .6);
+        padding: 0;
+    }
+    /*About-diagonal border*/
+    #about-bg-diagonal {
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 350px;
+    }
+    #about-content-box {
+        width: 100%;
+        height: 350px;
+    }
+    /* stats-item */
+    .stats-item {
+        padding: 20px 0;
+    }
+    /* footer */
+    #footer-copyrights {
+        text-align: center;
+    }
+}
+
+/*Extra small devices (landscape phones & potrait tablets) part 1*/
+
+@media (max-width: 767px) {
+    .navbar {
+        background: rgba(0, 0, 0, .6);
+        padding: 0;
+    }
+    /*Home*/
+    #home-heading h3 {
+        font-size: 24px;
+    }
+    /* buttons */
+    .btn-general {
+        padding: 6px 22px 6px 22px;
+        font-size: 14px;
+    }
+    /*About-diagonal border*/
+    #about-bg-diagonal {
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 350px;
+    }
+    #about-content-box {
+        width: 100%;
+        height: 350px;
+    }
+    /* work */
+    .img-wrapper img {
+        min-width: 100%;
+    }
+    /* testimonial */
+    .testimonial blockquote {
+        padding: 6px 50px;
+    }
+    .testimonial blockquote:before {
+        left: 10px;
+    }
+    .testimonial blockquote:after {
+        right: 10px;
+    }
+    .testimonial blockquote p {
+        font-size: 14px;
+    }
+    /* stats */
+    .stats-item {
+        padding: 20px 0;
+    }
+    /* footer */
+    #footer-copyrights {
+        text-align: center;
+    }
+    /*Extra small devices (potrait phones smaller devices part 2) */
+    @media (max-width: 480px) {
+        /* okay */
+    }
+    /*Extra small devices (smaller devices)*/
+    @media (max-width: 320px) {
+        /* services */
+        .service-item-icon i {
+            width: 50px;
+            height: 58px;
+            padding: 7px;
+        }
+        .service-item-title h3 {
+            font-size: 17px;
+        }
+    }

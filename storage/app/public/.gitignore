@@ -1,0 +1,5 @@
+*
+!static_images
+!assets
+!assets/icons.json
+!.gitignore

@@ -1,0 +1,41 @@
+@font-face {
+    font-family: ralewayBold;
+    src: url(Raleway-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: semiBold;
+    src: url(Raleway-SemiBold.ttf);
+}
+@font-face {
+    font-family: ralewayRegular;
+    src: url(Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: ralewayItalic;
+    src: url(Raleway-Italic.ttf);
+}
+
+
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: ralewayRegular, sans-serif;
+$font-size-base: 1rem;
+$line-height-base: 2;
+$parent-family-bold: ralewayBold; 
+$parent-family-semibold: semiBold; 
+$parent-family-regular: ralewayRegular; 
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;

@@ -1,0 +1,422 @@
+
+/*======services section======*/
+
+.service-item {
+  padding: 5px 0 5px 0;
+  margin-bottom: 5px;
+    margin-top: 10px;
+  cursor: pointer;
+}
+
+.service-item-icon i {
+  color: #456AC8;
+  float: left;
+  padding: 14px;
+  margin-right: 20px;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+}
+
+/*.service-item:hover .service-item-icon i {*/
+/*  color: #fff;*/
+/*  background-color: #456AC8;*/
+/*}*/
+
+.service-item-title h3 {
+  font-size: 10px;
+  font-weight: 400;
+  margin: 0 0 5px 0;
+}
+
+.service-item-desc p {
+  margin: 0;
+  padding-left: 45px;
+}
+
+
+address {
+  color: #fff;
+}
+
+address strong,
+#phone-fax-email strong {
+  letter-spacing: 1px;
+}
+
+form,
+.form-control {
+  background: transparent;
+  border-radius: 0;
+  border-color: #fff;
+  font-size: 17px;
+  font-weight: 300;
+  padding: 8px 16px;
+  margin-bottom: 20px;
+/*  color: #fff;*/
+}
+
+
+
+#paypal_currency{
+  display: none;
+}
+
+
+#paypal_logo{
+  display: none;
+}
+
+.payment_methods_container{
+  display: flex;
+  justify-content: space-around;
+}
+.top_container{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.payment_header{
+    text-align: left;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.btn_subscribe{
+    text-align: left;
+    border: 3px solid #456AC8;
+    display: inline-block;
+    padding: 8px;
+    margin: 2rem;
+    border-radius: 2px;
+    font-family: ralewayBold;
+    letter-spacing: 0px;
+    color: #456AC8;
+    align-self: center;
+    cursor: pointer;
+}
+
+.smaller_screens_pricing_container{
+    display: none;
+}
+
+.content-wrapper {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.gutters {
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+.gutters > .col, .gutters > [class*="col-"] {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.col-lg-8 {
+
+    margin: 0 auto;
+}
+
+.pricing-plan {
+    /*margin: 0 0 1.5rem 0;*/
+    width: 100%;
+    /*position: relative;*/
+    background: #ffffff;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
+    border: 1px solid #e4e9f1;
+}
+
+.pricing-plan .pricing-header {
+    padding: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+    background: #1a8e5f;
+    -webkit-border-radius: 3px 3px 0px 0px;
+    -moz-border-radius: 3px 3px 0px 0px;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.pricing-plan .pricing-features {
+    padding: 0;
+    margin: 20px 0;
+    text-align: left;
+
+}
+
+.pricing-plan .pricing-features li {
+    padding: 15px 15px 15px 40px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: relative;
+    line-height: 100%;
+    font-size: 1.4vw;
+
+}
+.pricing-plan {
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+    text-align: center;
+    padding: 1rem 0 2rem 0;
+}
+
+.pricing-footer{
+    margin-bottom: 1rem;
+    display: flex;
+
+}
+
+
+.pricing-plan .pricing-features li::before {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    font-size: 1rem;
+    color: #000000;
+    content: "\f00c";  /* this is your text. You can also use UTF-8 character codes as I do here */
+    font-family: FontAwesome;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #1a8e5f;
+    border-color: #1a8e5f;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.pricing-plan .pricing-header .pricing-title {
+    font-size: 1.2rem;
+    color: #ffffff;
+    padding: 1rem 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+    text-shadow: 0 30px 10px rgba(0, 0, 0, 0.15);
+}
+.pricing-plan .pricing-header {
+    padding: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+    background: #1a8e5f;
+    -webkit-border-radius: 3px 3px 0px 0px;
+    -moz-border-radius: 3px 3px 0px 0px;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.pricing-plan .pricing-header.secondary {
+    background: #cc2626;
+}
+
+.pricing-plan .pricing-header .pricing-cost {
+    color: #ffffff;
+    padding: 1rem 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-shadow: 0 30px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn-secondary {
+    color: #ffffff;
+    background-color: #cc2626;
+    border-color: #cc2626;
+}
+
+.dosha_dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: right;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: right;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+
+
+.dosha_dropdown-menu-right {
+    right: 0;
+    left: auto;
+}
+
+
+
+.dosha_dropdown-menu {
+    border: 0;
+    -webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 20px 30px 30px rgba(0, 0, 0, 0.2);
+    width: 11rem;
+    font-size: .75rem;
+}
+
+
+.user_icon{
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+
+.modal {
+    overflow-y:auto;
+}
+.user_name{
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+.subscribe_warning{
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+#login_modal_img{
+    height: 90%;
+    width: 90%;
+}
+#subscribe_how_to_img{
+    height: 40%;
+    width: 40%  ;
+}
+
+
+.content-title h3 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+.content-title-white h3 {
+    color: #fff;
+}
+
+.content-title-underline {
+    width: 120px;
+    height: 3px;
+    background-color: #34c6d3;
+    margin: 0 auto 30px auto;
+}
+
+.services-title{
+    font-size: 1.2rem;
+    color: #ffffff;
+    padding: 1rem 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+    text-shadow: 0 30px 10px rgba(0, 0, 0, 0.15);
+}
+.package_info{
+    width: 70%;
+    color:#1a8e5f;
+}
+
+
+/**** Responsive*****/
+
+/*=====boostrap 3 media queries======*/
+
+
+/*large devices (desktop & laptops)*/
+
+@media (min-width: 1200px) {
+    /* okay */
+}
+
+/*medium devices (landscaop tablets & medium desktops)*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/*small devices (potrait tablets & small desktops)*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+/*okay*/
+
+}
+
+/*Extra small devices (landscape phones & potrait tablets) part 1*/
+
+@media (max-width: 767px) {
+/*okay*/
+}
+
+    /*Extra small devices (smaller devices)*/
+@media (min-width: 320px) and (max-width: 734px) {
+        /* services */
+        .service-item-icon i {
+            width: 50px;
+            height: 58px;
+            padding: 7px;
+        }
+        .service-item-title h3 {
+            font-size: 17px;
+        }
+        .payment_methods_container{
+            width: 100%;
+            display: inline-block;
+            text-align: center;
+            margin: 0 auto;
+        }
+       .content-wrapper{
+           width: 100%;
+       }
+
+        .pricing-plan .pricing-features li {
+            font-size: 2.9vw;
+        }
+
+        }
+
+
+/*Extra small devices (smaller devices)*/
+@media (max-width: 320px) {
+    /* services */
+    .service-item-icon i {
+        width: 50px;
+        height: 58px;
+        padding: 7px;
+    }
+    .service-item-title h3 {
+        font-size: 17px;
+    }
+
+    .payment_methods_container{
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .content-wrapper{
+        width: 100%;
+    }
+
+    .pricing-plan .pricing-features li {
+        font-size: 2.2vw;
+    }
+
+
+}
